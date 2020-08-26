@@ -14,3 +14,10 @@ footer {
     min-height: 50px;
     padding-top:12px;
 }
+
+.ig-thumbnail{
+    width: 100px;
+    height: 100px;
+    float: left;
+    overflow: hidden;
+}
