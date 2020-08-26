@@ -11,6 +11,7 @@ class Mahasiswa extends REST_Controller
     {
         parent::__construct();
         $this->load->model('Mahasiswa_model', 'mahasiswa');
+        $this->methods['index_get']['limit'] = 100; //defaultnya per jam 
     }
 
     public function index_get()
